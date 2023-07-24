@@ -1,0 +1,16 @@
+.shadow_hero {
+    position: relative !important;
+    z-index: 1 !important;
+    box-shadow: inherit !important;
+}
+.shadow_hero::after {
+    background: rgba(0, 11, 21, 0.916) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}

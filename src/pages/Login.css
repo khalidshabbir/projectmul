@@ -1,0 +1,25 @@
+
+.loginwrapper {
+    /* Default styles for the loginwrapper */
+    width: 300px; /* Adjust this value based on your requirements */
+     
+    /* Media query for screens larger than or equal to 400px (xs) */
+    @media (min-width: 400px) {
+      width: 300px;
+    }
+  
+    /* Media query for screens larger than or equal to 600px (small) */
+    @media (min-width: 600px) {
+      width: 400px;
+    }
+  
+    /* Media query for screens larger than or equal to 800px (medium) */
+    @media (min-width: 800px) {
+      width: 500px;
+    }
+  
+    /* Media query for screens larger than or equal to 1000px (large) */
+    @media (min-width: 1000px) {
+      width: 600px;
+    }
+  }
