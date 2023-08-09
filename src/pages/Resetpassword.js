@@ -25,7 +25,7 @@ const Resetpassword = () => {
     onSubmit: async (values) => {
       try{
           
-         const response= await axios.post( base_url+`/resetPassword/${email}/${verification}`,{password:values.newPassword})
+         const response= await axios.post( base_url+`/resetPassword`,{email:email,password:values.newPassword,verificationcode:verification})
          if(response.status===201){
            alert(response.data.message)
            navigate(`/login`)

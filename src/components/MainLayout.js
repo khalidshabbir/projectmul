@@ -118,7 +118,7 @@ const MainLayout = () => {
           ]}
         />
       </Sider>
-      <Layout className="site-layout">
+      <Layout className="">
         <Header
           className="d-flex justify-content-between ps-1 pe-5"
           style={{
